@@ -1,6 +1,6 @@
 {
   "label": "Modulo 02",
-  "position": 2,
+  "position": 4,
   "link": {
     "type": "generated-index",
     "description": "En esta sesión veremos algunos conceptos avanzados de Javascript que son importantes para poder familizarnos con el flujo de trabajo en Node.js."
