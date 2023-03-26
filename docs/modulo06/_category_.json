@@ -1,0 +1,8 @@
+{
+  "label": "Modulo 06",
+  "position": 8,
+  "link": {
+    "type": "generated-index",
+    "description": "Uso de middlewares en Express"
+  }
+}
