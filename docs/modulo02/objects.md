@@ -49,7 +49,7 @@ persona["nombre"] = "Juan";
 persona["edad"] = 30;
 ```
 
-Este tipo de notación es mu útil para varios aspectos, por ejemplo, podemos agregar propiedades usando variables:
+Este tipo de notación es muy útil para varios aspectos, por ejemplo, podemos agregar propiedades usando variables:
 
 ```js
 const nombrePropiedad = "nombre";
