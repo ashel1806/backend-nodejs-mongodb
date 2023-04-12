@@ -143,6 +143,43 @@ console.log(frutasSeleccionadas); // ["Plátano", "Cereza", "Fresa"]
 console.log(frutas); // ["Manzana", "Naranja"]
 ```
 
+## concat()
+
+Este método nos permite unir dos o más arrays y devolver un nuevo array. Este método **no modifica** el array original.
+
+```js
+// Creamos un array de frutas
+const frutas = ["Manzana", "Plátano", "Cereza", "Fresa", "Naranja"];
+
+// Creamos un array de verduras
+const verduras = ["Lechuga", "Zanahoria", "Cebolla", "Ajo", "Papa"];
+
+// Usamos el método concat() para unir los dos arrays
+const alimentos = frutas.concat(verduras);
+
+console.log(alimentos); // ["Manzana", "Plátano", "Cereza", "Fresa", "Naranja", "Lechuga", "Zanahoria", "Cebolla", "Ajo", "Papa"]
+
+// Arreglo original
+console.log(frutas); // ["Manzana", "Plátano", "Cereza", "Fresa", "Naranja"]
+
+console.log(verduras); // ["Lechuga", "Zanahoria", "Cebolla", "Ajo", "Papa"]
+```
+
+Este método también es útil para poder agregar nuevos elementos a un array sin modificar el array original:
+
+```js
+// Creamos un array de frutas
+const frutas = ["Manzana", "Plátano", "Cereza", "Fresa", "Naranja"];
+
+// Agregamos una nueva fruta con .concat()
+const nuevasFrutas = frutas.concat("Papaya", "Sandía");
+
+console.log(nuevasFrutas) // ["Manzana", "Plátano", "Cereza", "Fresa", "Naranja", "Papaya", "Sandía"]
+
+// Arreglo original
+console.log(frutas); // ["Manzana", "Plátano", "Cereza", "Fresa", "Naranja"]
+```
+
 ## slice()
 
 Este método nos permite extraer elementos de un array y devolver un nuevo array. Este método **no modifica** el array original. Recibe dos parámetros: el índice de inicio y el índice de fin. El índice de inicio es obligatorio y el índice de fin es opcional. Si no se pasa el índice de fin, el método extrae todos los elementos desde el índice de inicio hasta el final del array.
