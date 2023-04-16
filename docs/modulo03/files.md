@@ -1,7 +1,7 @@
 ---
 title: 'Manipulación de archivos'
 slug: '/node-files'
-sidebar_position: 5
+sidebar_position: 6
 ---
 
 La manipulación de archivos es una tarea común en la programación, y Node.js proporciona un conjunto completo de API para trabajar con archivos y directorios. En este artículo, exploraremos cómo trabajar con archivos en Node.js, incluyendo la creación, lectura, escritura y eliminación de archivos.

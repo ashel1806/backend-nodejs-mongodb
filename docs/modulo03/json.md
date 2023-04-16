@@ -1,7 +1,7 @@
 ---
 title: "JSON"
 slug: "/json"
-sidebar_position: 3
+sidebar_position: 4
 ---
 
 # JSON (JavaScript Object Notation)
