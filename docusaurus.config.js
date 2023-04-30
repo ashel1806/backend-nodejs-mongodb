@@ -42,7 +42,7 @@ const config = {
           sidebarPath: require.resolve("./sidebars.js"),
           // Please change this to your repo.
           // Remove this to remove the "edit this page" links.
-          editUrl: "https://github.com/ashel1806/backend-nodejs-mongodb.git",
+          editUrl: "https://github.com/ashel1806/backend-nodejs-mongodb/tree/main",
         },
         blog: false,
         theme: {
